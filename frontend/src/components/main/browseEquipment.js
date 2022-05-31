@@ -1,4 +1,4 @@
-import Rate from "./Rate";
+
 //import React from 'react'
 import { Search } from "@mui/icons-material";
 import {

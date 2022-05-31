@@ -41,7 +41,6 @@ import UserProfile from "./components/user/profile";
 /* import Sidebar from "./components/admin/sidebar"; */
 import ManageUser from "./components/admin/manageuser";
 import DashBoard from "./components/admin/dashboard";
-import Rate from "./components/main/Rate";
 
 
 function App() {
@@ -90,7 +89,6 @@ function App() {
           {/* <Route element={<NewLogin />} path="newlogin" /> */}
           {/* <Route element={<NewSignup />} path="newsignup" /> */}
           <Route element={<BrowseEquipment />} path="browseEquipment" />
-          <Route element={<Rate />} path="rating" />
           <Route element={<EquipmentDetail />} path="equipmentDetails/:id" />
           <Route element={<Home />} path="home" />
           <Route element={<Ordering />} path="ordering" />
