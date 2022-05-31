@@ -100,6 +100,37 @@ import {
     };
   
     return (
+<div>
+      <body>
+
+    <div id="wrapper" class="toggled">
+
+        {/* <!-- Sidebar --> */}
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                       User Panel
+                    </a>
+                </li>
+                <li>
+                    <a href="/user/profile">Profile</a>
+                </li>
+                <li>
+                    <a href="/user/manageOrder">Manage Order</a>
+                </li>
+                <li>
+                    <a href="/user/chat">Chat With Expert</a>
+                </li>
+                <li>
+                    <a href="/main/browseEquipment">Explore Products</a>
+                </li>
+            </ul>
+        </div>
+        {/* <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content --> */}
+      
       <div className="col-md-10 mx-auto mt-5"
       style={{backgroundImage : "url(http://localhost:5000/images/banner.jpg)"}}>
         <Card>
@@ -181,6 +212,23 @@ import {
           </CardContent>
         </Card>
       </div>
+       {/*  <!-- /#page-content-wrapper --> */}
+
+    </div>
+   {/*  <!-- /#wrapper -->
+
+    <!-- Menu Toggle Script --> */}
+   
+
+  
+</body>
+    
+   
+    </div>
+
+
+
+
     );
  
 }

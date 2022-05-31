@@ -49,12 +49,60 @@ const ManageOrder = () => {
   
     return (
       <div>
+      <body>
+
+    <div id="wrapper" class="toggled">
+
+        {/* <!-- Sidebar --> */}
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                       User Panel
+                    </a>
+                </li>
+                <li>
+                    <a href="/user/profile">Profile</a>
+                </li>
+                <li>
+                    <a href="/user/manageOrder">Manage Order</a>
+                </li>
+                <li>
+                    <a href="/user/chat">Chat With Expert</a>
+                </li>
+                <li>
+                    <a href="/main/browseEquipment">Explore Products</a>
+                </li>
+            </ul>
+        </div>
+        {/* <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content --> */}
+        
+      <div>
         <div className="container">
-          <h1 className="mt-5">Manage Bookings</h1>
+          <h1 className="mt-1">Manage Bookings</h1>
           <hr />
           <div className="row">{showData()}</div>
         </div>
       </div>
+      
+       {/*  <!-- /#page-content-wrapper --> */}
+
+    </div>
+   {/*  <!-- /#wrapper -->
+
+    <!-- Menu Toggle Script --> */}
+   
+
+  
+</body>
+    
+   
+    </div>
+
+
+
     );
   };
 export default ManageOrder

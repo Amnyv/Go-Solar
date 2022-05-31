@@ -93,7 +93,38 @@ const Chat = () => {
   };
 
   return (
-    <div>
+<div>
+      <body>
+
+    <div id="wrapper" class="toggled">
+
+        {/* <!-- Sidebar --> */}
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                       User Panel
+                    </a>
+                </li>
+                <li>
+                    <a href="/user/profile">Profile</a>
+                </li>
+                <li>
+                    <a href="/user/manageOrder">Manage Order</a>
+                </li>
+                <li>
+                    <a href="/user/chat">Chat With Expert</a>
+                </li>
+                <li>
+                    <a href="/main/browseEquipment">Explore Products</a>
+                </li>
+            </ul>
+        </div>
+        {/* <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content --> */}
+        
+        <div>
       <div className="container-fluid pt-5">
         <div className="row">
           <div className="col-md-3">{showExpert()}</div>
@@ -123,6 +154,25 @@ const Chat = () => {
         </div>
       </div>
     </div>
+      
+       {/*  <!-- /#page-content-wrapper --> */}
+
+    </div>
+   {/*  <!-- /#wrapper -->
+
+    <!-- Menu Toggle Script --> */}
+   
+
+  
+</body>
+    
+   
+    </div>
+
+
+
+
+    
   );
 };
 
